@@ -3,7 +3,7 @@
 # Author  : LiaoKong
 
 from datetime import datetime
-from . import db
+from ext import db
 
 
 class Message(db.Model):
